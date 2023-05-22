@@ -11,7 +11,7 @@ func func1(slice []int) float64 {
 		soma += valor
 	}
 	media := soma / tamanho
-	return media
+	return float64(media)
 }
 func main() {
 	numeros := []int{5, 10, 15, 20, 25}
